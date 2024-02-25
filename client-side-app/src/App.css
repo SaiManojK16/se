@@ -1,0 +1,70 @@
+.app {
+    max-width: 100%;
+    margin: 0;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: #FF3F6B; 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.logo img {
+    width: 60px; 
+}
+
+.links {
+    display: flex;
+}
+
+.links a {
+    margin-left: 20px;
+    margin-right: 10px;
+    color: #fff; /* White text color */
+}
+
+
+/* Addition Page styling */
+.addition-page {
+    margin-bottom: 20px;
+}
+
+.addition-page form {
+    display: flex;
+    flex-direction: column;
+}
+
+.addition-page label {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100px; /* Adjust the width as needed */
+}
+
+.addition-page input {
+    display: inline-block;
+    padding: 5px;
+    margin-top: 5px;
+    width: 300px; /* Adjust the width calculation based on label width and margin */
+    box-sizing: border-box;
+}
+
+.addition-page button {
+    padding: 10px;
+    width: 100px;
+    margin-top: 10px;
+    background-color: #FF3F6B;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.addition-page p {
+    margin-top: 10px;
+}
+
+
