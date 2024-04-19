@@ -1,0 +1,45 @@
+/* InventoryList.css */
+
+/* Style for the table */
+.table-container {
+    margin-top: 20px;
+  }
+  
+  /* Style for the images */
+  .item-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover; /* Ensure the image covers the entire space without stretching */
+  }
+
+
+.inventory-container {
+    text-align: center;
+    padding-bottom: 10%; /* Center the button and table */
+  }
+  
+  .button-container {
+    margin-bottom: 20px; /* Add space between the button and the table */
+  }
+  
+
+.image-cell {
+    text-align: center; /* Align images to the center */
+  }
+  
+  .image-container {
+    text-align: center;
+    width: 100px; /* Set the width of the container */
+    height: 100px; /* Set the height of the container */
+    overflow: hidden; /* Hide overflow to maintain aspect ratio */
+
+  }
+  
+  .item-image {
+    width: 100%; /* Set the width of the image to fill the container */
+    height: auto; /* Let the browser adjust the height to maintain aspect ratio */
+    display: block; /* Ensure the image behaves as a block element */
+  }
+  
+  
+  

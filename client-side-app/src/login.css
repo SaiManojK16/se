@@ -1,0 +1,55 @@
+/* login.css */
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height to cover the full viewport height */
+}
+
+.login-container {
+  width: 300px; /* Adjust the width of the container */
+}
+
+.login-form {
+  margin-bottom: 20px; /* Add some space between the form and the "Don't have an account" link */
+}
+
+.link {
+  cursor: pointer;
+}
+
+/* login.css */
+.register-link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.login-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.login-page-container {
+
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+  min-height: 100vh; /* Set minimum height to 100% of viewport height */
+}
+
+.login-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh; /* Set the height to 70% of the viewport height */
+  margin-top: 15vh; /* Set the top margin to 15% of the viewport height */
+}
+
+
+.login-form .btn {
+  margin-top: 20px; /* Adjust the margin-top to move the button down */
+}
+
+/* Other styles remain the same */
+

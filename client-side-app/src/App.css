@@ -1,0 +1,137 @@
+.app {
+    max-width: 100%;
+    margin: 0;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: #FF3F6B; 
+    padding: 10px;
+    border-radius: 5px;
+}
+/* Update the links in the header to look like text */
+.links button {
+    background-color: transparent; /* Set background color to transparent */
+    border: none; /* Remove border */
+    color: #fff; /* Text color */
+    cursor: pointer;
+    transition: color 0.3s; /* Add transition for smooth color change */
+  }
+  
+  .links button:hover {
+    color: #fff; /* Change text color on hover */
+    background-color: rgba(255, 255, 255, 0.2); /* Change background color on hover */
+  }
+  
+  /* Update the links in the header to have padding */
+  .links button {
+    padding: 8px 12px; /* Add padding */
+  }
+  
+  /* Update the profile, addition, inventory, and API pages to have cursor pointer on hover */
+  .profile-page,
+  .addition-page,
+  .inventory-page,
+  .api-page {
+    cursor: pointer;
+  }
+  
+.logo img {
+    width: 60px; 
+}
+
+.links {
+    display: flex;
+}
+
+.links a {
+    margin-left: 20px;
+    margin-right: 10px;
+    color: #fff; /* White text color */
+}
+
+
+/* Addition Page styling */
+.addition-page {
+    margin-bottom: 20px;
+}
+
+.addition-page form {
+    display: flex;
+    flex-direction: column;
+}
+
+.addition-page label {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100px; /* Adjust the width as needed */
+}
+
+.addition-page input {
+    display: inline-block;
+    padding: 5px;
+    margin-top: 5px;
+    width: 300px; /* Adjust the width calculation based on label width and margin */
+    box-sizing: border-box;
+}
+
+.addition-page button {
+    padding: 10px;
+    width: 100px;
+    margin-top: 10px;
+    background-color: #FF3F6B;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.addition-page p {
+    margin-top: 10px;
+}
+
+/* Remove boxy look from Profile, Addition, and other pages */
+.profile-page,
+.addition-page,
+.inventory-page,
+.api-page {
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+  padding: 0;
+}
+
+/* Style the content of Profile, Addition, and other pages */
+.profile-page p,
+.addition-page p,
+.inventory-page p,
+.api-page p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333; /* Adjust the color as needed */
+}
+
+/* Style the headings of Profile, Addition, and other pages */
+.profile-page h1,
+.addition-page h1,
+.inventory-page h1,
+.api-page h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style the form elements if needed */
+.addition-page input,
+.addition-page button {
+  /* Add your custom styles here */
+}
+
+
+
+
+
+
